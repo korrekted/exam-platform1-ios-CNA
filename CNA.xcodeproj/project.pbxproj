@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0E506BAA162192ACC34529F6 /* Pods_CNA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0C4A4FE59A756E6BE9DF5B /* Pods_CNA.framework */; };
+		96AD35352750DA270098D472 /* SetSelectCourseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AD35342750DA270098D472 /* SetSelectCourseRequest.swift */; };
+		96AD35382750DA3D0098D472 /* GetSelectedCourseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AD35372750DA3D0098D472 /* GetSelectedCourseResponse.swift */; };
+		96AD353A2750DA4E0098D472 /* GetSelectedCourseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AD35392750DA4E0098D472 /* GetSelectedCourseRequest.swift */; };
 		96BF374526B2BA2F00AEF6D3 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BF374426B2BA2F00AEF6D3 /* WidgetKit.framework */; };
 		96BF374726B2BA2F00AEF6D3 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BF374626B2BA2F00AEF6D3 /* SwiftUI.framework */; };
 		96BF374C26B2BA3600AEF6D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96BF374B26B2BA3600AEF6D3 /* Assets.xcassets */; };
@@ -292,6 +295,9 @@
 
 /* Begin PBXFileReference section */
 		8394A3ED7732D14DC3AE3BAA /* Pods-CNA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNA.release.xcconfig"; path = "Target Support Files/Pods-CNA/Pods-CNA.release.xcconfig"; sourceTree = "<group>"; };
+		96AD35342750DA270098D472 /* SetSelectCourseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetSelectCourseRequest.swift; sourceTree = "<group>"; };
+		96AD35372750DA3D0098D472 /* GetSelectedCourseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSelectedCourseResponse.swift; sourceTree = "<group>"; };
+		96AD35392750DA4E0098D472 /* GetSelectedCourseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSelectedCourseRequest.swift; sourceTree = "<group>"; };
 		96BF374326B2BA2F00AEF6D3 /* StatsWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StatsWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		96BF374426B2BA2F00AEF6D3 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		96BF374626B2BA2F00AEF6D3 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -584,6 +590,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		96AD35332750DA1F0098D472 /* SetSelectCourse */ = {
+			isa = PBXGroup;
+			children = (
+				96AD35342750DA270098D472 /* SetSelectCourseRequest.swift */,
+			);
+			path = SetSelectCourse;
+			sourceTree = "<group>";
+		};
+		96AD35362750DA360098D472 /* GetSelectedCourse */ = {
+			isa = PBXGroup;
+			children = (
+				96AD35372750DA3D0098D472 /* GetSelectedCourseResponse.swift */,
+				96AD35392750DA4E0098D472 /* GetSelectedCourseRequest.swift */,
+			);
+			path = GetSelectedCourse;
+			sourceTree = "<group>";
+		};
 		96BF374826B2BA2F00AEF6D3 /* StatsWidgets */ = {
 			isa = PBXGroup;
 			children = (
@@ -874,6 +897,8 @@
 		96BF37B226B2BA7300AEF6D3 /* Requests */ = {
 			isa = PBXGroup;
 			children = (
+				96AD35362750DA360098D472 /* GetSelectedCourse */,
+				96AD35332750DA1F0098D472 /* SetSelectCourse */,
 				96BF37B326B2BA7300AEF6D3 /* GetCourcesRequest.swift */,
 				96BF37B426B2BA7300AEF6D3 /* GetReferences */,
 				96BF37B726B2BA7300AEF6D3 /* GetCourcesResponseMapper.swift */,
@@ -1861,6 +1886,7 @@
 				96BF38AB26B2BA7400AEF6D3 /* PaygateManagerCore.swift in Sources */,
 				96BF396D26B2BA7400AEF6D3 /* OSlideTimeView.swift in Sources */,
 				96BF38E126B2BA7400AEF6D3 /* GetBriefRequest.swift in Sources */,
+				96AD35382750DA3D0098D472 /* GetSelectedCourseResponse.swift in Sources */,
 				96BF38F926B2BA7400AEF6D3 /* SplashViewModel.swift in Sources */,
 				96BF395C26B2BA7400AEF6D3 /* WelcomeSlide3View.swift in Sources */,
 				96BF392926B2BA7400AEF6D3 /* PaygateOptionView.swift in Sources */,
@@ -1949,6 +1975,7 @@
 				96BF38BD26B2BA7400AEF6D3 /* TestStatsManager.swift in Sources */,
 				96BF389226B2BA7400AEF6D3 /* StringExtension.swift in Sources */,
 				96BF393626B2BA7400AEF6D3 /* TestStatsProgressView.swift in Sources */,
+				96AD353A2750DA4E0098D472 /* GetSelectedCourseRequest.swift in Sources */,
 				96BF38CE26B2BA7400AEF6D3 /* Reference.swift in Sources */,
 				96BF38FF26B2BA7400AEF6D3 /* SCTakeTestCell.swift in Sources */,
 				96BF38A126B2BA7400AEF6D3 /* PaddingPickerView.swift in Sources */,
@@ -2035,6 +2062,7 @@
 				96BF395D26B2BA7400AEF6D3 /* WelcomeSlide2View.swift in Sources */,
 				96BF389326B2BA7400AEF6D3 /* GlobalDefinitions.swift in Sources */,
 				96BF392E26B2BA7400AEF6D3 /* TestStatsAnswerCell.swift in Sources */,
+				96AD35352750DA270098D472 /* SetSelectCourseRequest.swift in Sources */,
 				96BF38F726B2BA7400AEF6D3 /* SettingsViewController.swift in Sources */,
 				96BF396126B2BA7400AEF6D3 /* OSlideReferencesView.swift in Sources */,
 			);
@@ -2059,7 +2087,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = 2W4U9UWRKZ;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -2068,7 +2096,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.0.4;
+				MARKETING_VERSION = 2.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.cna.stats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "CNA Stats Development";
@@ -2086,7 +2114,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = 2W4U9UWRKZ;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -2095,7 +2123,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.0.4;
+				MARKETING_VERSION = 2.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.cna.stats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "CNA Stats AppStore";
@@ -2231,7 +2259,7 @@
 				CODE_SIGN_ENTITLEMENTS = CNA/CNA.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 2W4U9UWRKZ;
 				INFOPLIST_FILE = "$(SRCROOT)/CNA/Resource/Info.plist";
@@ -2240,7 +2268,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.4;
+				MARKETING_VERSION = 2.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.cna;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "CNA Development Profile";
@@ -2260,7 +2288,7 @@
 				CODE_SIGN_ENTITLEMENTS = CNA/CNA.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = 2W4U9UWRKZ;
 				INFOPLIST_FILE = "$(SRCROOT)/CNA/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -2268,7 +2296,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.4;
+				MARKETING_VERSION = 2.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.cna;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "CNA AppStore Profile";

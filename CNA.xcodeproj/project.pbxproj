@@ -32,6 +32,10 @@
 		96F4557B26577DB100B63D53 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96F4557A26577DB100B63D53 /* Localizable.strings */; };
 		96F4557E26577DB800B63D53 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96F4557D26577DB800B63D53 /* GoogleService-Info.plist */; };
 		96F4558126577DBD00B63D53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F4558026577DBD00B63D53 /* LaunchScreen.storyboard */; };
+		B844DCF328D9F7BA00E22328 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE28A99028D9AA1000B0BD30 /* StringExtension.swift */; };
+		B844DCF428D9F7C400E22328 /* Scalable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE28A99B28D9AA1000B0BD30 /* Scalable.swift */; };
+		B844DCF528D9F7D400E22328 /* StatsShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE28AA1128D9AA1000B0BD30 /* StatsShareManager.swift */; };
+		B844DCF628D9F7DC00E22328 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE28A9FE28D9AA1000B0BD30 /* Stats.swift */; };
 		DE28AB5E28D9AA1100B0BD30 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE28A98728D9AA1000B0BD30 /* UIColorExtension.swift */; };
 		DE28AB5F28D9AA1100B0BD30 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE28A98828D9AA1000B0BD30 /* Collection+Extension.swift */; };
 		DE28AB6028D9AA1100B0BD30 /* Observable+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE28A98928D9AA1000B0BD30 /* Observable+Utils.swift */; };
@@ -2536,9 +2540,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B844DCF428D9F7C400E22328 /* Scalable.swift in Sources */,
 				96BF398526B2BAA600AEF6D3 /* MediumRateWidget.swift in Sources */,
 				96BF398626B2BAA600AEF6D3 /* StatsWidget.swift in Sources */,
 				96BF398226B2BAA600AEF6D3 /* Provider.swift in Sources */,
+				B844DCF528D9F7D400E22328 /* StatsShareManager.swift in Sources */,
+				B844DCF628D9F7DC00E22328 /* Stats.swift in Sources */,
 				96BF398C26B2BAA600AEF6D3 /* ColorExtension.swift in Sources */,
 				96BF398926B2BAA600AEF6D3 /* HorizontalRateView.swift in Sources */,
 				96BF398426B2BAA600AEF6D3 /* SmallRateWidget.swift in Sources */,
@@ -2547,6 +2554,7 @@
 				96BF398826B2BAA600AEF6D3 /* SUICircleView.swift in Sources */,
 				96BF398326B2BAA600AEF6D3 /* LargeRateWidget.swift in Sources */,
 				96BF398126B2BAA600AEF6D3 /* Starter.swift in Sources */,
+				B844DCF328D9F7BA00E22328 /* StringExtension.swift in Sources */,
 				96BF398726B2BAA600AEF6D3 /* PassRateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
